@@ -23,7 +23,7 @@ To start using and benefiting from load balancing, your application should be de
 
 To sign up for a Linode account and to start deploying Compute Instances, see [Getting Started on the Linode Platform](/docs/products/compute/compute-instances/get-started/)
 
-To redirect all web connections over port 443/HTTPS generate an SSL certificate for your domain name that supports TLS version 1.2 or later.
+To redirect all web connections over port 443/HTTPS generate an TLS certificate for your domain name that supports TLS version 1.2 or later.
 
 ## Create the Akamai Global Load Balancer
 
