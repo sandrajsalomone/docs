@@ -43,9 +43,6 @@ Health checks detect if a target is down and routes traffic to an available targ
 |Metrics, Logs and Traces|Supported                    |-                       |
 |Pricing                |Beta is offered free of charge for the duration of the Beta trial and includes; 4 Gbps of outbound from the load balancer to end-users. Up to 100 000 concurrent connections (with a limit of 4000 requests-per-second). Load balancing in upto 5 regions. |Each NodeBalancer on an account costs $10/mo ($0.015/hr).                                                             |
 
-
-## Migration
-
 ## Accelerate Distributed Compute
 This OSI layer 7 and layer 4 load balancer manages your distributed application architectures across multiple regions and multiple clouds.
 
@@ -53,15 +50,15 @@ This OSI layer 7 and layer 4 load balancer manages your distributed application 
 - **Layer 4:** load balancing forwards network packets to and from the upstream server without inspecting the content of the packets.
 
 ## Integration With Akamai Products
-The Akamai Global Load Balancer can be used with or without an Akamai delivery property. Akamai cloud compute offers seamless integration with Akamai’s suite of security, and compute products.
+The Global Load Balancer can be used with or without an Akamai delivery property. Akamai cloud compute offers seamless integration with Akamai’s suite of security, and compute products.
 
 ## Operationally Simple
-You can create and enable the Akamai Global Load Balancer using Cloud Manager or APIs. Once Akamai Global Load Balancer is configured, you can start balancing traffic across multiple regions or globally. Akamai Global Load Balancer requires no infrastructure management and is designed to be maintenance free after initial configuration.
+You can create and enable the Global Load Balancer using Cloud Manager or APIs. Once Global Load Balancer is configured, you can start balancing traffic across multiple regions or globally. Akamai Global Load Balancer requires no infrastructure management and is designed to be maintenance free after initial configuration.
 
 ## Available Protocols
 
 
-## Load Balancing Methods
+## Load Balancing Configurations
 You can select to route your clients traffic to one of your backends using one or a combination of the following load balancing methods; performance, weighted and content-based.
 
 - **Performance:** determines which route to use based on real-time load feedback and the shortest geographic route to the backend target. Default method.
@@ -81,11 +78,11 @@ You can select to route your clients traffic to one of your backends using one o
 
 ## High-Availability, Performance and Scalability
 
-**High Availabilty:** Akamai Global Load Balancer has built-in failover and customizable failover preferences.
+**High Availabilty:** Akamai Global Load Balancer has built-in failover and customizable failover preferences. It's designed to manage high traffic volumes without any degradation to user experience.
 
 **Performance:** Based on load and distance, Akamai Cloud identifies and selects the fastest routing for best performance. The Layer 7 Akamai Global Load Balancer offloads connections closer to the end user so that round-trip time and time to first byte is improved when compared to not using the load balancer.
 
-**Scalability:** Load balancers scale applications and add flexibility by allowing you to add or remove machines that are identically configured to serve your application or perform a task. The load balancer routes your traffic to one of the identically configured machines based on the settings that you have configured. Each Layer 7 Akamai Global Load Balancer route up to 1,000,000 concurrent connections
+**Scalability:** Load balancers scale applications and add flexibility by allowing you to add or remove machines that are identically configured to serve your application or perform a task. The load balancer routes your traffic to one of the identically configured machines based on the settings that you have configured. Each Global Load Balancer can support up to 1,000,000 concurrent connections.
 
 ## Health Checks
 Traffic is only routed to healthy backends. Passive health checks happen on every request. You can configure active health checks based on your application or service. If the target becomes unfit, the load balancer moves traffic away from the unhealthy target. When a new target is added, Akamai Global Load Balancer tests the fitness of the target to verify the target is active, and ready to support large traffic spikes.
