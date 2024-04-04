@@ -1,5 +1,5 @@
 ---
-title: Cancel Object Storage
+title: Grafana
 description: "How to cancel the Linode Object Storage service."
 authors: ["Linode"]
 ---
